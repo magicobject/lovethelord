@@ -49,9 +49,9 @@ const BookletApp = () => {
     {
       title: "Introduction",
       content: [
-        "Many of us who have been Christians for a long time still struggle with loving God with all our heart let alone soul, mind and strength. We know we should love God with every fibre of our being, but in practice, if we're honest with ourselves, we don't. Not really. We're at best lukewarm.",
-        "If this sounds anything like you then you've come to the right place. Our roadmap will be to discover what blocks our hearts, how to identify those blocks and practical steps to enable Jesus to fully indwell in our hearts.",
-        "I expect the results to be life changing. Loving the Lord with all our hearts is foundational. Once that foundation is in place the possibilities for transformation, holiness and God's coming kingdom are limitless."
+        "Many of us who have been Christians for a long time still struggle with loving God with all our heart let alone soul, mind and strength. ",
+        "If this sounds anything like you then you've come to the right place. As we progress we'll discover what blocks our hearts, how to identify those blocks and practical steps to enable Jesus to fully indwell in our hearts.",
+        <strong><em>I expect the results to be life changing. Loving the Lord with all our hearts is foundational. Once that foundation is in place the possibilities for transformation, holiness and God's coming kingdom are limitless.</em></strong>
       ],
       image: "https://images.unsplash.com/photo-1501139083538-0139583c060f?w=800&q=80"
     },
@@ -275,7 +275,7 @@ const BookletApp = () => {
                   <div className="flex-1 space-y-4 text-gray-700 leading-relaxed overflow-y-auto">
                     {page.content.map((paragraph, idx) => (
                       <p key={idx} className="text-base md:text-lg">
-                        {paragraph}
+                        {typeof paragraph === 'string' ? paragraph : paragraph}
                       </p>
                     ))}
                     
