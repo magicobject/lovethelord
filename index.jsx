@@ -126,8 +126,9 @@ const BookletApp = () => {
       content: [
         "One thing is for sure: idols can never satisfy. The heart which craves money will never be filled by money. The heart which lusts will never be satisfied.",
         "Consider Solomon's pursuit of satisfaction through wisdom, pleasure, work, and wealth—all ending with 'meaningless, a chasing after the wind.' He concluded that meaning is found only in God.",
-        "Saint Augustine said: 'You have made us for yourself, O Lord, and our hearts are restless until they rest in you.'"
       ],
+      verse: "You have made us for yourself, O Lord, and our hearts are restless until they rest in you.",
+      reference: "Augustine of Hippo",
       image: "https://images.unsplash.com/photo-1475319122043-5ca9eeceefaf?w=800&q=80"
     },
     {
