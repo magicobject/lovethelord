@@ -188,6 +188,8 @@ const BookletApp = () => {
         "Take the woman caught in adultery in John 8. Jesus showed her accusers the hypocrisy in their hearts. Imagine how she felt about Jesus after he saved her from being stoned.",
         "She was able to truly repent because she had found a love of much greater value than her sin."
       ],
+      verse: "Where your treasure is, there your heart is also",
+      reference: "Matthew 6:21",
       image: "https://images.unsplash.com/photo-1518281361980-b26bfd556770?w=800&q=80"
     },
     {
