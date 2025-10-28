@@ -32,7 +32,7 @@ const BookletApp = () => {
       ],
       verse: "Create in me a pure heart, O God, and renew a steadfast spirit within me",
       reference: "Psalm 51:10",
-      image: "https://images.unsplash.com/photo-1518214598173-1666bc921d38?w=800&q=80"
+      image: "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=800&q=80"
     },
     {
       title: "God's Love for Us",
