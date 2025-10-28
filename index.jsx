@@ -5,6 +5,37 @@ import './src/index.css';
 
 const BookletApp = () => {
   const [currentPage, setCurrentPage] = useState(0);
+  const [touchStart, setTouchStart] = useState(null);
+  const [touchEnd, setTouchEnd] = useState(null);
+
+  // Minimum swipe distance to trigger page change (in pixels)
+  const minSwipeDistance = 50;
+
+  const onTouchStart = (e) => {
+    setTouchEnd(null);
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const onTouchMove = (e) => {
+    setTouchEnd(e.targetTouches[0].clientX);
+  };
+
+  const onTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    
+    const distance = touchStart - touchEnd;
+    const isSwipe = Math.abs(distance) > minSwipeDistance;
+
+    if (isSwipe) {
+      if (distance > 0) {
+        // Swiped left
+        nextPage();
+      } else {
+        // Swiped right
+        prevPage();
+      }
+    }
+  };
 
   const pages = [
     {
@@ -199,7 +230,12 @@ const BookletApp = () => {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center p-4">
       <div className="max-w-4xl w-full">
         {/* Main Book Container */}
-        <div className="relative bg-white rounded-lg shadow-2xl overflow-hidden" style={{ minHeight: '600px' }}>
+        <div 
+          className="relative bg-white rounded-lg shadow-2xl overflow-hidden" 
+          style={{ minHeight: '600px' }}
+          onTouchStart={onTouchStart}
+          onTouchMove={onTouchMove}
+          onTouchEnd={onTouchEnd}>
           {/* Page Content */}
           <div className="relative h-full">
             {/* Background Image */}
