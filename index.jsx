@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import { createRoot } from 'react-dom/client';
 import { ChevronLeft, ChevronRight, Heart } from 'lucide-react';
+import './src/index.css';
 
 const BookletApp = () => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -313,4 +315,10 @@ const BookletApp = () => {
   );
 };
 
-export default BookletApp;
+// Create root and render the app
+const root = createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <BookletApp />
+  </React.StrictMode>
+);
