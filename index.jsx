@@ -265,20 +265,20 @@ const BookletApp = () => {
           </div>
 
           {/* Navigation Buttons */}
-          <div className="absolute bottom-4 left-4 right-4 flex justify-between items-center">
+          <div className="absolute bottom-4 left-4 right-4 flex justify-between items-center z-50">
             <button
               onClick={prevPage}
               disabled={currentPage === 0}
-              className={`p-3 rounded-full shadow-lg transition-all ${
+              className={`p-3 rounded-full shadow-lg transition-all backdrop-blur-sm ${
                 currentPage === 0
-                  ? 'bg-gray-300 text-gray-400 cursor-not-allowed'
-                  : 'bg-purple-600 text-white hover:bg-purple-700 hover:scale-110'
+                  ? 'bg-gray-300/80 text-gray-400 cursor-not-allowed'
+                  : 'bg-purple-600/90 text-white hover:bg-purple-700 hover:scale-110'
               }`}
             >
               <ChevronLeft className="w-6 h-6" />
             </button>
 
-            <div className="flex gap-1">
+            <div className="flex gap-1 px-4 py-2 rounded-full bg-white/30 backdrop-blur-sm">
               {pages.map((_, idx) => (
                 <button
                   key={idx}
