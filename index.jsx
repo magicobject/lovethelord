@@ -155,7 +155,7 @@ const BookletApp = () => {
       content: [
         "We often tell new believers to invite Jesus into their hearts. Sadly, that's not enough. Jesus must absolutely fill our hearts. He must be our ultimate thing.",
         "Compared to him filling our hearts, our sins and idols are useless, unsatisfying and meaningless.",
-        "We need to constantly ask Jesus, not only into our hearts but to fill the Jesus-shaped hole in our hearts. That relationship with Jesus needs to become our ultimate possession."
+        "We need to constantly ask Jesus, not only into our hearts but to fill the Jesus-shaped hole in our hearts. That relationship with Jesus needs to become our ultimate possession and passion."
       ],
       image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
     },
