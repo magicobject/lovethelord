@@ -182,7 +182,7 @@ const BookletApp = () => {
       image: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&q=80"
     },
     {
-      title: "Love Comes Before Repentance",
+      title: "Love Comes Before True, Lasting Repentance",
       content: [
         "If we think we've repented but don't fully love God, then our sin will eventually resurface. But if love for Jesus is the ultimate possession of our hearts, then sin won't stand a chance.",
         "Take the woman caught in adultery in John 8. Jesus showed her accusers the hypocrisy in their hearts. Imagine how she felt about Jesus after he saved her from being stoned.",
