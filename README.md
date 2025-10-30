@@ -11,7 +11,7 @@ An interactive digital booklet exploring the greatest commandment: loving the Lo
 
 ## 🌟 Live Demo
 
-Experience the application at [https://lovethelord.vercel.app](https://lovethelord.vercel.app)
+Experience the application at [https://lovethelord.uk](https://lovethelord.uk)
 
 ## ✨ Features
 
