@@ -83,6 +83,8 @@ const BookletApp = () => {
         "Love is a choice. Love without choice would be meaningless. For example, when people get married, they promise, not that they do love each other, but that they choose to love one another come what may.",
         "Love is a choice to put another first in our heart, and our love for God starts with the heart. If God is not fully in our heart, how could we possibly love him with all our mind, soul or strength?"
       ],
+      verse: "You will seek me and find me when you seek me with all your heart.",
+      reference: "Jeremiah 29:13",
       image: "https://images.unsplash.com/photo-1516450137517-162bfbeb8dba?w=800&q=80"
     },
     {
