@@ -350,7 +350,7 @@ const BookletApp = () => {
 
         {/* Footer */}
         <div className="text-center mt-6 text-white text-sm">
-          Use arrow keys or click buttons to navigate • {currentPage + 1} of {pages.length}
+          Swipe or click buttons to navigate • {currentPage + 1} of {pages.length}
         </div>
       </div>
     </div>
