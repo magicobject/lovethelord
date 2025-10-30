@@ -115,6 +115,8 @@ const BookletApp = () => {
         "But for others it can be too much of any good thing. For example, it is possible to love people or things too much. That may be a relationship or a possession like a house or car.",
         "These things are idols, and they totally get in the way of wholeheartedly loving God."
       ],
+      verse: "My people have committed two sins: They have forsaken me, the spring of living water, and have dug their own cisterns, broken cisterns that cannot hold water.",
+      reference: "Jeremiah 2:13",
       image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80"
     },
     {
