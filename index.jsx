@@ -92,8 +92,10 @@ const BookletApp = () => {
       content: [
         "God's greatest commandment is deliberately not half-hearted. There can be no place in our hearts for God and your favourite idol. Like Jesus' words on the love of money, no one can serve two masters—you have to love one or the other.",
         "If we hold God and sin in our hearts at the same time, we will not be able to overcome sin. We are called to be like God (holy) and that is only possible if we wholeheartedly love God.",
-        "If we wholeheartedly love God, then that must overflow into wholeheartedly loving other people."
+        "We must purify our hearts with God's presence then if we wholeheartedly love God, then that must overflow into wholeheartedly loving other people."
       ],
+      verse: "Come near to God and he will come near to you. Wash your hands, you sinners, and purify your hearts, you double-minded.",
+      reference: "James 4:8",
       image: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=800&q=80"
     },
     {
