@@ -225,7 +225,7 @@ const BookletApp = () => {
         "You can't repent and still harbour sin in your heart. You need something bigger and better than your sin in your heart to drive the sin out.",
         "Jesus is the only thing that will truly satisfy your heart. Ask him to continuously fill the Jesus-shaped hole in your heart and be your one ultimate thing.",
         "For some this is a process and can feel like climbing a ladder as love for God overwhelms one thing at a time.",
-        "Love for jesus in our hearts drives out sin and idols: True repentance is lasting repentance"
+        "Love for Jesus in our hearts drives out sin and idols: True repentance is lasting repentance"
       ],
       verse: "Above all else, guard your heart, for everything you do flows from it.",
       reference: "Proverbs 4:23",
@@ -237,7 +237,7 @@ const BookletApp = () => {
       content: [
         "As a result of the fall, we are all born with a Jesus-shaped hole in our hearts where our loving intimate relationship with God was meant to be.",
         "Ask Jesus not only to fully fill that hole in your heart, but to be your ultimate possession, and to drive out all idols.",
-        "Out hearts are fickle and deceitful, so make that your prayer daily if not hourly.",
+        "Our hearts are fickle and deceitful, so make that your prayer daily if not hourly.",
         "If Jesus fills your heart, you see him and the Bible in an entirely new light. The overflow of the Jesus-filled heart is gracious and loving.",
         "True, lasting repentance is only possible if Jesus is filling your heart and that love for God is driving out all idols."
       ],
