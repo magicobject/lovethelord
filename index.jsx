@@ -74,7 +74,7 @@ const BookletApp = () => {
       title: "God's Love for Us",
       content: [
         "Our love for God is in response to God's love for us, " +
-          "so we need to get into our hearts and minds the amazing extent of God's love. He loves us so much that he was prepared in his son to come to earth in human form, live a perfect life, and even though he was despised, scorned and rejected he still loved us so much that he went to the cross and bears our sins.",
+          "so we need to get into our hearts and minds the amazing extent of God's love. He loves us so much that he was prepared in his son to come to earth in human form, live a perfect life, and even though he was despised, scorned and rejected he still loved us so much that he went to the cross and bares our sins.",
         <em>The Father loves you with the same love he has for Jesus.</em>,
         "We need to gaze upon the beauty of Jesus every day so that we are continually reminded how very much God loves us.",
         "Jesus’s righteousness is freely given to us to us through faith in his work on the cross, nothing can separate us from his love."
