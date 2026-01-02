@@ -379,6 +379,16 @@ const BookletApp = () => {
         <div className="text-center mt-6 text-white text-sm">
           Swipe or click buttons to navigate • {currentPage + 1} of {pages.length}
         </div>
+
+        {/* Download link (fixed bottom-right) */}
+        <a
+          href="/LovingGod.pdf"
+          download="LovingGod.pdf"
+          aria-label="Download Loving God book"
+          className="fixed bottom-4 right-4 z-50 bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-4 rounded shadow-lg"
+        >
+          Download Book
+        </a>
       </div>
     </div>
   );
