@@ -381,7 +381,15 @@ const BookletApp = () => {
         </div>
 
         {/* Purchase and Download links (fixed bottom-right) */}
-        <div className="fixed bottom-4 right-4 z-50 flex flex-col gap-2">
+        <div className="fixed bottom-4 right-4 z-50 flex flex-col gap-2"> 
+          <a
+            href="/LovingGod.pdf"
+            download="LovingGod.pdf"
+            aria-label="Download Loving God book"
+            className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-4 rounded shadow-lg"
+          >
+            Download Book (free PDF version)
+          </a>
           <a
             href="https://mybook.to/lovinggod"
             target="_blank"
@@ -390,14 +398,6 @@ const BookletApp = () => {
             className="bg-amber-500 hover:bg-amber-600 text-white font-semibold py-2 px-4 rounded shadow-lg"
           >
             Buy on Amazon
-          </a> or 
-          <a
-            href="/LovingGod.pdf"
-            download="LovingGod.pdf"
-            aria-label="Download Loving God book"
-            className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-4 rounded shadow-lg"
-          >
-            Download Book (free PDF version)
           </a>
         </div>
       </div>
